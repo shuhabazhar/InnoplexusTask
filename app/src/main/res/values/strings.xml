@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">InnoplexusTask</string>
+    <string name="user_information">User Information</string>
+    <string name="address_info">Address Info</string>
+    <string name="bs">BS :</string>
+    <string name="catch_phrase">Catch Phrase :</string>
+    <string name="company_name">Company Name :</string>
+    <string name="company_info">Company Info</string>
+    <string name="zipcode">ZipCode :</string>
+    <string name="city">City :</string>
+    <string name="suite">Suite :</string>
+    <string name="street">Street :</string>
+    <string name="website">Website :</string>
+    <string name="phone">Phone :</string>
+    <string name="email">Email :</string>
+    <string name="user_name">User Name :</string>
+    <string name="name">Name :</string>
+    <string name="no_data_available">No Data Available</string>
+</resources>

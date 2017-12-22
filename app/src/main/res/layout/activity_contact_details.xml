@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.innoplexustask.activity.ContactDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/user_information"
+                style="@style/CustomStyle3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/name"
+                    style="@style/CustomStyle1" />
+
+                <TextView
+                    android:id="@+id/txtName"
+                    style="@style/CustomStyle2"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/user_name"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtUserName"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/email"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtEmail"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/phone"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtPhone"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/website"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtWebsite"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/address_info"
+                style="@style/CustomStyle3"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/street"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtStreet"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/suite"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtSuite"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/city"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtCity"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/zipcode"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtZipCode"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <TextView
+                android:text="@string/company_info"
+                style="@style/CustomStyle3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/company_name"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtCompanyName"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/catch_phrase"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtCatchPhrase"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="@string/bs"
+                    style="@style/CustomStyle1"/>
+
+                <TextView
+                    android:id="@+id/txtBs"
+                    style="@style/CustomStyle2" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
